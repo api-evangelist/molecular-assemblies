@@ -1,7 +1,26 @@
 aid: molecular-assemblies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/molecular-assemblies.png
 name: Molecular Assemblies
-description: Molecular Assemblies is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Molecular Assemblies is a synthetic biology company that developed a Fully Enzymatic
+  Synthesis (FES) platform for de novo DNA production, using enzymatic chemistry to synthesize
+  longer (up to ~400 base), higher-purity oligonucleotides faster than traditional phosphoramidite
+  methods, targeting next-generation sequencing, gene synthesis, diagnostics, and therapeutics
+  markets. Originally a DCVC-backed startup, the company's assets and intellectual property were
+  acquired by Maravai LifeSciences, and its enzymatic DNA synthesis technology is now part of
+  TriLink BioTechnologies. As of this enrichment pass the company exposes no public API, developer
+  portal, SDK, or machine-readable developer surface; its former molecularassemblies.com domain
+  now redirects to TriLink BioTechnologies.
 url: https://raw.githubusercontent.com/api-evangelist/molecular-assemblies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,30 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Maravai LifeSciences (TriLink BioTechnologies)
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Synthetic Biology
+- DNA Synthesis
+- Life Sciences
+- Genomics
 apis: []
+common:
+- type: Website
+  url: https://www.molecularassemblies.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Enzymatic DNA synthesis biotech acquired by Maravai/TriLink; no public API or developer surface.
