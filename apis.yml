@@ -33,6 +33,8 @@ description: Molecular Assemblies is a synthetic biology company that developed 
   portal, SDK, or machine-readable developer surface; its former molecularassemblies.com domain
   now redirects to TriLink BioTechnologies.
 url: https://raw.githubusercontent.com/api-evangelist/molecular-assemblies/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
